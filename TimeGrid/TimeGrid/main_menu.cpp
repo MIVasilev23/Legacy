@@ -2,18 +2,14 @@
 #include "raylib.h"
 #include <iostream>
 
-using namespace std;
-
 void main_menu()
 {
-    InitWindow(800, 600, "Main Menu");
-
-    Texture2D background = LoadTexture("Assets/test_background.png");
+    InitWindow(845, 600, "TimeGrid");
+    Texture2D background = LoadTexture("Assets/background_1.png");
 
     if (background.id == 0)
     {
-        cout << "Failed to load background!" << endl;
-        CloseWindow();
+        std::cout << "Failed to load background!" << std::endl;
         return;
     }
 
@@ -21,14 +17,18 @@ void main_menu()
 
     while (!WindowShouldClose())
     {
+        if (IsKeyPressed(KEY_ESCAPE))
+        {
+            break;
+        }
+
         BeginDrawing();
         ClearBackground(RAYWHITE);
 
         DrawTexture(background, 0, 0, WHITE);
 
+        DrawText( "Press ESC to close the app", 10, 10, 20,BLACK);
         EndDrawing();
     }
-
     UnloadTexture(background);
-    CloseWindow();
 }
