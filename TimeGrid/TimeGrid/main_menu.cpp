@@ -6,12 +6,20 @@
 void main_menu()
 {
     InitWindow(845, 600, "TimeGrid");
+
     Texture2D background = LoadTexture("Assets/background_1.png");
 
     if (background.id == 0)
     {
         std::cout << "Failed to load background!" << std::endl;
         return;
+    }
+
+    Texture2D logo = LoadTexture("Assets/TimeGrid_logo1.png");
+    if (logo.id == 0)
+    {
+        std::cout << "Failed to load logo!" << std::endl;
+        
     }
 
     Button viewButton("Assets/button_layout.png", 312, 200, 1.0f);
@@ -32,6 +40,11 @@ void main_menu()
 
         DrawTexture(background, 0, 0, WHITE);
 
+        if (logo.id != 0) {
+            float scale = 0.9f;
+            DrawTextureEx(logo, { (840 - logo.width * scale) / 2, 32 }, 0.0f, scale, WHITE);
+        }
+
         DrawText( "Press ESC to close the app", 10, 10, 20,BLACK);
 
         viewButton.Draw();
@@ -46,4 +59,6 @@ void main_menu()
     }
 
     UnloadTexture(background);
+    if (logo.id != 0)
+        UnloadTexture(logo);
 }
