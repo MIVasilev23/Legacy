@@ -27,7 +27,7 @@ Button::~Button()
 void Button::Draw()
 {
     if (texture.id != 0)
-        DrawTexture(texture, x, y, WHITE);
+        DrawTextureEx(texture, { (float)x, (float)y }, 0.0f, scale, WHITE);
 }
 
 bool Button::IsPressed()
@@ -36,8 +36,9 @@ bool Button::IsPressed()
 
     //Creates rectangle representing button bounds
     Rectangle rect = {(float)x, (float)y,
-                      (float)texture.width,
-                      (float)texture.height};
+                      (float)(texture.width * scale),
+                      (float)(texture.height * scale)
+    };
 
     //Returns true if mouse is inside the rectangle and if the left button pressed
     return CheckCollisionPointRec(GetMousePosition(), rect) &&
