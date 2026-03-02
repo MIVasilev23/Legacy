@@ -24,12 +24,18 @@
     <ClCompile Include="buttons.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="view_events.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_menu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="buttons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="view_events.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

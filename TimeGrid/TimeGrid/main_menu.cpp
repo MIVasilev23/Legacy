@@ -1,7 +1,11 @@
 #include "main_menu.h"
 #include "buttons.h"
+#include "view_events.h"
 #include "raylib.h"
 #include <iostream>
+
+#include "event_list.h"
+
 
 void main_menu()
 {
@@ -28,11 +32,27 @@ void main_menu()
 
     SetTargetFPS(60);
 
+    //we need this to check if the button and linked lists work
+    EventNode* head = nullptr;
+    // Add a dummy event to test
+    Event testEvent;
+    testEvent.name = "Battle of Example";
+    testEvent.year = 2023;
+
+    AddEvent(head, testEvent);
+    //delete or improve after it
+
     while (!WindowShouldClose())
     {
         if (IsKeyPressed(KEY_ESCAPE))
         {
             break;
+        }
+
+        //test window, delete or improve later
+        if (viewButton.IsPressed())
+        {
+            view_events(head); 
         }
 
         BeginDrawing();
