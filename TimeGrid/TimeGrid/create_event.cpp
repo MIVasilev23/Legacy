@@ -85,36 +85,36 @@ void create_event(EventNode*& head)
         DrawTexture(background, 0, 0, WHITE);
 
         DrawText("CREATE EVENT", 300, 40, 30, BLACK);
-        DrawText("TAB to switch field, ENTER to save, F1 to return", 120, 80, 20, DARKGRAY);
+        DrawText("TAB to switch fields, ENTER to save, F1 to return", 160, 80, 20, DARKGRAY);
 
         //Name
         DrawText("Event Name:", 200, 140, 20, BLACK);
-        DrawRectangleLines(200, 170, 400, 40, currentField == 0 ? RED : GRAY);
+        DrawRectangleLines(200, 160, 400, 40, currentField == 0 ? RED : GRAY);
         DrawText(name.c_str(), 210, 180, 20, BLACK);
 
         //Year
         DrawText("Year:", 200, 220, 20, BLACK);
-        DrawRectangleLines(200, 250, 400, 40, currentField == 1 ? RED : GRAY);
+        DrawRectangleLines(200, 240, 400, 40, currentField == 1 ? RED : GRAY);
         DrawText(yearInput.c_str(), 210, 260, 20, BLACK);
 
         //Theme
         DrawText("Theme:", 200, 290, 20, BLACK);
-        DrawRectangleLines(200, 320, 400, 40, currentField == 2 ? RED : GRAY);
+        DrawRectangleLines(200, 310, 400, 40, currentField == 2 ? RED : GRAY);
         DrawText(theme.c_str(), 210, 330, 20, BLACK);
 
         //Leader
         DrawText("Leader:", 200, 360, 20, BLACK);
-        DrawRectangleLines(200, 390, 400, 40, currentField == 3 ? RED : GRAY);
+        DrawRectangleLines(200, 380, 400, 40, currentField == 3 ? RED : GRAY);
         DrawText(leader.c_str(), 210, 400, 20, BLACK);
 
         //Participants
         DrawText("Participants:", 200, 430, 20, BLACK);
-        DrawRectangleLines(200, 460, 400, 40, currentField == 4 ? RED : GRAY);
+        DrawRectangleLines(200, 450, 400, 40, currentField == 4 ? RED : GRAY);
         DrawText(participants.c_str(), 210, 470, 20, BLACK);
 
         //Result
         DrawText("Result:", 200, 500, 20, BLACK);
-        DrawRectangleLines(200, 530, 400, 40, currentField == 5 ? RED : GRAY);
+        DrawRectangleLines(200, 520, 400, 40, currentField == 5 ? RED : GRAY);
         DrawText(result.c_str(), 210, 540, 20, BLACK);
 
         EndDrawing();

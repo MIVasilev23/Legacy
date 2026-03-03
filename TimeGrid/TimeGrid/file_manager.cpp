@@ -13,11 +13,11 @@ void SaveEventToFile(const Event& e)
         return;
     }
 
-    file << e.name << ";"
-        << e.year << ";"
-        << e.theme << ";"
-        << e.leader << ";"
-        << e.participants << ";"
+    file << e.name << "; "
+        << e.year << "; "
+        << e.theme << "; "
+        << e.leader << "; "
+        << e.participants << "; "
         << e.result << "\n";
 
     file.close();
