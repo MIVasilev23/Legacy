@@ -4,9 +4,9 @@
 #include <string>
 #include "event_list.h"
 
+
 void create_event(EventNode*& head)
 {
-    // Input storage
     std::string name = "";
     std::string yearInput = "";
     std::string theme = "";
@@ -14,13 +14,15 @@ void create_event(EventNode*& head)
     std::string participants = "";
     std::string result = "";
 
-    int currentField = 0; 
+    int currentField = 0;
 
     SetTargetFPS(60);
 
+    Texture2D background = LoadTexture("Assets/background_1.png");
+
     while (!WindowShouldClose())
     {
-        // Handle character input
+        //character input
         int key = GetCharPressed();
         while (key > 0)
         {
@@ -51,11 +53,11 @@ void create_event(EventNode*& head)
             }
         }
 
-        // Switch field with TAB
+        //Switches between fields
         if (IsKeyPressed(KEY_TAB))
             currentField = (currentField + 1) % 6;
 
-        // Save event with ENTER 
+        //Save event with ENTER
         if (IsKeyPressed(KEY_ENTER) && !name.empty() && !yearInput.empty())
         {
             Event e;
@@ -66,56 +68,57 @@ void create_event(EventNode*& head)
             e.participants = participants;
             e.result = result;
 
-            AddEvent(head, e);       // add to linked list
-            SaveEventToFile(e);      // append to file
+            AddEvent(head, e);       //add to linked list
+            SaveEventToFile(e);
 
-            // Reset inputs for next entry
             name.clear(); yearInput.clear(); theme.clear();
             leader.clear(); participants.clear(); result.clear();
             currentField = 0;
         }
 
-        // Return to main menu 
+        //Return to main menu 
         if (IsKeyPressed(KEY_F1))
             break;
 
-        // Draw UI
         BeginDrawing();
         ClearBackground(RAYWHITE);
+        DrawTexture(background, 0, 0, WHITE);
 
         DrawText("CREATE EVENT", 300, 40, 30, BLACK);
         DrawText("TAB to switch field, ENTER to save, F1 to return", 120, 80, 20, DARKGRAY);
 
-        // Name
+        //Name
         DrawText("Event Name:", 200, 140, 20, BLACK);
         DrawRectangleLines(200, 170, 400, 40, currentField == 0 ? RED : GRAY);
         DrawText(name.c_str(), 210, 180, 20, BLACK);
 
-        // Year
+        //Year
         DrawText("Year:", 200, 220, 20, BLACK);
         DrawRectangleLines(200, 250, 400, 40, currentField == 1 ? RED : GRAY);
         DrawText(yearInput.c_str(), 210, 260, 20, BLACK);
 
-        // Theme
+        //Theme
         DrawText("Theme:", 200, 290, 20, BLACK);
         DrawRectangleLines(200, 320, 400, 40, currentField == 2 ? RED : GRAY);
         DrawText(theme.c_str(), 210, 330, 20, BLACK);
 
-        // Leader
+        //Leader
         DrawText("Leader:", 200, 360, 20, BLACK);
         DrawRectangleLines(200, 390, 400, 40, currentField == 3 ? RED : GRAY);
         DrawText(leader.c_str(), 210, 400, 20, BLACK);
 
-        // Participants
+        //Participants
         DrawText("Participants:", 200, 430, 20, BLACK);
         DrawRectangleLines(200, 460, 400, 40, currentField == 4 ? RED : GRAY);
         DrawText(participants.c_str(), 210, 470, 20, BLACK);
 
-        // Result
+        //Result
         DrawText("Result:", 200, 500, 20, BLACK);
         DrawRectangleLines(200, 530, 400, 40, currentField == 5 ? RED : GRAY);
         DrawText(result.c_str(), 210, 540, 20, BLACK);
 
         EndDrawing();
     }
+    UnloadTexture(background);
+
 }

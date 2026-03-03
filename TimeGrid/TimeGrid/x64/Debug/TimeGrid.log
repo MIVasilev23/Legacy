@@ -1,22 +1,4 @@
-﻿  view_events.cpp
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(30,78): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(30,61): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(31,95): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(31,77): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(34,104): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(34,87): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(35,107): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(35,89): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(41,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(41,52): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(42,82): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(42,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(45,72): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(45,55): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(51,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(51,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(55,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(55,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+﻿  create_event.cpp
   TimeGrid.vcxproj -> C:\Users\todor\Legacy\TimeGrid\x64\Debug\TimeGrid.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.
