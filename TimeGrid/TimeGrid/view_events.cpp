@@ -3,7 +3,7 @@
 
 void view_events(EventNode* head)
 {
-    if(!head)return;
+    if (!head)return;
 
     SetTargetFPS(60);
 
@@ -23,11 +23,21 @@ void view_events(EventNode* head)
         {
             DrawText(current->data.name.c_str(), 40, y, 20, BLACK);
             DrawText(TextFormat("%d", current->data.year), 300, y, 20, DARKGRAY);
+            DrawText(current->data.theme.c_str(), 400, y, 20, DARKBLUE);
+            DrawText(current->data.leader.c_str(), 550, y, 20, DARKGREEN);
+            DrawText(current->data.participants.c_str(), 700, y, 20, DARKPURPLE);
+            DrawText(current->data.result.c_str(), 850, y, 20, RED);
 
-            y += 30; //thats for the spacing between events
+            y += 30; // spacing
             current = current->next;
         }
 
         EndDrawing();
     }
 }
+
+
+
+
+
+

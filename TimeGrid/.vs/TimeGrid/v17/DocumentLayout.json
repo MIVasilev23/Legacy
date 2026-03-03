@@ -1,62 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\",
+  "WorkspaceRootPath": "C:\\Users\\todor\\Legacy\\TimeGrid\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\view_events.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\view_events.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\view_events.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\view_events.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\file_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\file_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\create_event.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\create_event.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\file_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\file_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\file_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\main_menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\main_menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\create_event.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\create_event.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\view_events.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\view_events.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\buttons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\buttons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\main_menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\main_menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{971B1013-4025-4D7A-A121-4D605D6C52FF}|EventLibrary\\EventLibrary.vcxproj|C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\EventLibrary\\event_list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{971B1013-4025-4D7A-A121-4D605D6C52FF}|EventLibrary\\EventLibrary.vcxproj|C:\\Users\\todor\\Legacy\\TimeGrid\\EventLibrary\\event_list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{971B1013-4025-4D7A-A121-4D605D6C52FF}|EventLibrary\\EventLibrary.vcxproj|solutionrelative:EventLibrary\\event_list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\buttons.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\buttons.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\create_event.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\create_event.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\main_menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\main_menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{971B1013-4025-4D7A-A121-4D605D6C52FF}|EventLibrary\\EventLibrary.vcxproj|C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\EventLibrary\\event_list.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{971B1013-4025-4D7A-A121-4D605D6C52FF}|EventLibrary\\EventLibrary.vcxproj|C:\\Users\\todor\\Legacy\\TimeGrid\\EventLibrary\\event_list.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{971B1013-4025-4D7A-A121-4D605D6C52FF}|EventLibrary\\EventLibrary.vcxproj|solutionrelative:EventLibrary\\event_list.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{971B1013-4025-4D7A-A121-4D605D6C52FF}|EventLibrary\\EventLibrary.vcxproj|C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\EventLibrary\\event.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\buttons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\buttons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B1013-4025-4D7A-A121-4D605D6C52FF}|EventLibrary\\EventLibrary.vcxproj|C:\\Users\\todor\\Legacy\\TimeGrid\\EventLibrary\\event.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{971B1013-4025-4D7A-A121-4D605D6C52FF}|EventLibrary\\EventLibrary.vcxproj|solutionrelative:EventLibrary\\event.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\view_events.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\view_events.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\file_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\file_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\buttons.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\buttons.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\create_event.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\create_event.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\main_menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{65B93711-6F27-4793-B65C-67A90958F6DD}|TimeGrid\\TimeGrid.vcxproj|solutionrelative:TimeGrid\\main_menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,106 +66,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "view_events.cpp",
-              "DocumentMoniker": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\view_events.cpp",
-              "RelativeDocumentMoniker": "TimeGrid\\view_events.cpp",
-              "ToolTip": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\view_events.cpp",
-              "RelativeToolTip": "TimeGrid\\view_events.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-03-02T16:30:10.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "main_menu.cpp",
-              "DocumentMoniker": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\main_menu.cpp",
-              "RelativeDocumentMoniker": "TimeGrid\\main_menu.cpp",
-              "ToolTip": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\main_menu.cpp",
-              "RelativeToolTip": "TimeGrid\\main_menu.cpp",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-27T16:35:26.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\main.cpp",
-              "RelativeDocumentMoniker": "TimeGrid\\main.cpp",
-              "ToolTip": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\main.cpp",
-              "RelativeToolTip": "TimeGrid\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-27T19:32:48.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "create_event.cpp",
-              "DocumentMoniker": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\create_event.cpp",
+              "DocumentMoniker": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\create_event.cpp",
               "RelativeDocumentMoniker": "TimeGrid\\create_event.cpp",
-              "ToolTip": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\create_event.cpp",
+              "ToolTip": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\create_event.cpp",
               "RelativeToolTip": "TimeGrid\\create_event.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-03T09:23:29.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "file_manager.cpp",
-              "DocumentMoniker": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\file_manager.cpp",
+              "DocumentMoniker": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\file_manager.cpp",
               "RelativeDocumentMoniker": "TimeGrid\\file_manager.cpp",
-              "ToolTip": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\file_manager.cpp",
+              "ToolTip": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\file_manager.cpp",
               "RelativeToolTip": "TimeGrid\\file_manager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-03T08:54:52.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "view_events.h",
-              "DocumentMoniker": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\view_events.h",
-              "RelativeDocumentMoniker": "TimeGrid\\view_events.h",
-              "ToolTip": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\view_events.h",
-              "RelativeToolTip": "TimeGrid\\view_events.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-02T16:30:30.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "file_manager.h",
-              "DocumentMoniker": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\file_manager.h",
+              "DocumentMoniker": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\file_manager.h",
               "RelativeDocumentMoniker": "TimeGrid\\file_manager.h",
-              "ToolTip": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\file_manager.h",
+              "ToolTip": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\file_manager.h",
               "RelativeToolTip": "TimeGrid\\file_manager.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-03T08:57:07.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T08:57:07.466Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "buttons.cpp",
-              "DocumentMoniker": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\buttons.cpp",
+              "DocumentMoniker": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\buttons.cpp",
               "RelativeDocumentMoniker": "TimeGrid\\buttons.cpp",
-              "ToolTip": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\buttons.cpp",
+              "ToolTip": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\buttons.cpp",
               "RelativeToolTip": "TimeGrid\\buttons.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -174,24 +121,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "event_list.cpp",
-              "DocumentMoniker": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\EventLibrary\\event_list.cpp",
+              "DocumentMoniker": "C:\\Users\\todor\\Legacy\\TimeGrid\\EventLibrary\\event_list.cpp",
               "RelativeDocumentMoniker": "EventLibrary\\event_list.cpp",
-              "ToolTip": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\EventLibrary\\event_list.cpp",
+              "ToolTip": "C:\\Users\\todor\\Legacy\\TimeGrid\\EventLibrary\\event_list.cpp",
               "RelativeToolTip": "EventLibrary\\event_list.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-02T15:49:06.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "buttons.h",
-              "DocumentMoniker": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\buttons.h",
+              "DocumentMoniker": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\buttons.h",
               "RelativeDocumentMoniker": "TimeGrid\\buttons.h",
-              "ToolTip": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\buttons.h",
+              "ToolTip": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\buttons.h",
               "RelativeToolTip": "TimeGrid\\buttons.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -199,23 +146,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "event_list.h",
-              "DocumentMoniker": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\EventLibrary\\event_list.h",
+              "DocumentMoniker": "C:\\Users\\todor\\Legacy\\TimeGrid\\EventLibrary\\event_list.h",
               "RelativeDocumentMoniker": "EventLibrary\\event_list.h",
-              "ToolTip": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\EventLibrary\\event_list.h",
+              "ToolTip": "C:\\Users\\todor\\Legacy\\TimeGrid\\EventLibrary\\event_list.h",
               "RelativeToolTip": "EventLibrary\\event_list.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-02T15:48:07.965Z"
+              "WhenOpened": "2026-03-02T15:48:07.965Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "main_menu.h",
-              "DocumentMoniker": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\main_menu.h",
+              "DocumentMoniker": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\main_menu.h",
               "RelativeDocumentMoniker": "TimeGrid\\main_menu.h",
-              "ToolTip": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\main_menu.h",
+              "ToolTip": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\main_menu.h",
               "RelativeToolTip": "TimeGrid\\main_menu.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -223,27 +171,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
+              "Title": "event.h",
+              "DocumentMoniker": "C:\\Users\\todor\\Legacy\\TimeGrid\\EventLibrary\\event.h",
+              "RelativeDocumentMoniker": "EventLibrary\\event.h",
+              "ToolTip": "C:\\Users\\todor\\Legacy\\TimeGrid\\EventLibrary\\event.h",
+              "RelativeToolTip": "EventLibrary\\event.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-02T15:47:16.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "view_events.cpp",
+              "DocumentMoniker": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\view_events.cpp",
+              "RelativeDocumentMoniker": "TimeGrid\\view_events.cpp",
+              "ToolTip": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\view_events.cpp",
+              "RelativeToolTip": "TimeGrid\\view_events.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-02T16:30:10.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main_menu.cpp",
+              "DocumentMoniker": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\main_menu.cpp",
+              "RelativeDocumentMoniker": "TimeGrid\\main_menu.cpp",
+              "ToolTip": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\main_menu.cpp",
+              "RelativeToolTip": "TimeGrid\\main_menu.cpp",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-27T16:35:26.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\main.cpp",
+              "RelativeDocumentMoniker": "TimeGrid\\main.cpp",
+              "ToolTip": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\main.cpp",
+              "RelativeToolTip": "TimeGrid\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-27T19:32:48.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "view_events.h",
+              "DocumentMoniker": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\view_events.h",
+              "RelativeDocumentMoniker": "TimeGrid\\view_events.h",
+              "ToolTip": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\view_events.h",
+              "RelativeToolTip": "TimeGrid\\view_events.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-02T16:30:30.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "create_event.h",
-              "DocumentMoniker": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\create_event.h",
+              "DocumentMoniker": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\create_event.h",
               "RelativeDocumentMoniker": "TimeGrid\\create_event.h",
-              "ToolTip": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\TimeGrid\\create_event.h",
+              "ToolTip": "C:\\Users\\todor\\Legacy\\TimeGrid\\TimeGrid\\create_event.h",
               "RelativeToolTip": "TimeGrid\\create_event.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-03-03T09:24:07.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "event.h",
-              "DocumentMoniker": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\EventLibrary\\event.h",
-              "RelativeDocumentMoniker": "EventLibrary\\event.h",
-              "ToolTip": "C:\\Users\\Milen\\Desktop\\Project\\Legacy\\TimeGrid\\EventLibrary\\event.h",
-              "RelativeToolTip": "EventLibrary\\event.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-02T15:47:16.577Z"
             }
           ]
         }
