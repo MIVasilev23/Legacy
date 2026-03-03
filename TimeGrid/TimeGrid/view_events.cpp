@@ -1,4 +1,5 @@
 #include "view_events.h"
+#include "edit_event.h"
 #include "raylib.h"
 #include <string>
 
@@ -38,6 +39,12 @@ void view_events(EventNode* head)
             Rectangle cardRect = { 20,(float)y, (float)GetScreenWidth() - 40, 125 };
             DrawRectangleRec(cardRect, LIGHTGRAY);
             DrawRectangleLinesEx(cardRect, 2, GRAY);
+
+            if (CheckCollisionPointRec(GetMousePosition(), cardRect) &&
+                IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+            {
+                edit_event(head, current); // pass head and clicked event
+            }
 
             //main Info
             DrawText(current->data.name.c_str(), cardRect.x + 15, cardRect.y + 12, 20, MAROON);

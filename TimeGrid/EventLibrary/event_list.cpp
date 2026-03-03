@@ -1,5 +1,7 @@
 #include "event_list.h"
+#include <iostream>
 
+//adds a new event sorted by year
 void AddEvent(EventNode*& head, const Event& newEvent)
 {
     EventNode* newNode = new EventNode{ newEvent, nullptr };
@@ -19,9 +21,35 @@ void AddEvent(EventNode*& head, const Event& newEvent)
     current->next = newNode;
 }
 
+//returns head
 EventNode* GetAllEvents(EventNode* head)
 {
     return head;
+}
+
+//deletes a node from the list
+void DeleteEvent(EventNode*& head, EventNode* target)
+{
+    if (!head || !target) return;
+
+    if (head == target)
+    {
+        EventNode* tmp = head;
+        head = head->next;
+        delete tmp;
+        return;
+    }
+
+    EventNode* current = head;
+    while (current->next && current->next != target)
+        current = current->next;
+
+    if (current->next == target)
+    {
+        EventNode* tmp = current->next;
+        current->next = tmp->next;
+        delete tmp;
+    }
 }
 
 EventNode* SearchByYear(EventNode* head, int year)
@@ -35,12 +63,13 @@ EventNode* SearchByYear(EventNode* head, int year)
     return nullptr;
 }
 
+//free all nodes
 void FreeList(EventNode*& head)
 {
     while (head)
     {
-        EventNode* temp = head;
+        EventNode* tmp = head;
         head = head->next;
-        delete temp;
+        delete tmp;
     }
 }

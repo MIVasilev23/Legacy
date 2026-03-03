@@ -2,8 +2,8 @@
 #include "file_manager.h"
 #include "raylib.h"
 #include <string>
-#include "event_list.h"
 
+#include "event_list.h"
 
 void create_event(EventNode*& head)
 {
@@ -17,7 +17,6 @@ void create_event(EventNode*& head)
     int currentField = 0;
 
     SetTargetFPS(60);
-
     Texture2D background = LoadTexture("Assets/background_1.png");
 
     while (!WindowShouldClose())
@@ -39,7 +38,6 @@ void create_event(EventNode*& head)
             key = GetCharPressed();
         }
 
-        // Handle backspace
         if (IsKeyPressed(KEY_BACKSPACE))
         {
             switch (currentField)
@@ -53,11 +51,11 @@ void create_event(EventNode*& head)
             }
         }
 
-        //Switches between fields
+        //switches between fields
         if (IsKeyPressed(KEY_TAB))
             currentField = (currentField + 1) % 6;
 
-        //Save event with ENTER
+        //saves event with ENTER
         if (IsKeyPressed(KEY_ENTER) && !name.empty() && !yearInput.empty())
         {
             Event e;
@@ -76,7 +74,6 @@ void create_event(EventNode*& head)
             currentField = 0;
         }
 
-        //Return to main menu 
         if (IsKeyPressed(KEY_F1))
             break;
 

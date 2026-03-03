@@ -1,25 +1,27 @@
 ﻿  create_event.cpp
+  edit_event.cpp
   file_manager.cpp
+  main_menu.cpp
   view_events.cpp
+C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\TimeGrid\view_events.cpp(50,78): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\TimeGrid\view_events.cpp(50,61): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\TimeGrid\view_events.cpp(51,95): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\TimeGrid\view_events.cpp(51,77): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\TimeGrid\view_events.cpp(54,104): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\TimeGrid\view_events.cpp(54,87): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\TimeGrid\view_events.cpp(55,107): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\TimeGrid\view_events.cpp(55,89): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\TimeGrid\view_events.cpp(61,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\TimeGrid\view_events.cpp(61,52): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\TimeGrid\view_events.cpp(62,82): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\TimeGrid\view_events.cpp(62,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\TimeGrid\view_events.cpp(65,72): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\TimeGrid\view_events.cpp(65,55): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\TimeGrid\view_events.cpp(70,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\TimeGrid\view_events.cpp(70,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\TimeGrid\view_events.cpp(74,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\TimeGrid\view_events.cpp(74,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   Generating Code...
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(43,78): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(43,61): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(44,95): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(44,77): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(47,104): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(47,87): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(48,107): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(48,89): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(54,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(54,52): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(55,82): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(55,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(58,72): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(58,55): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(63,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(63,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(67,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\todor\Legacy\TimeGrid\TimeGrid\view_events.cpp(67,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  TimeGrid.vcxproj -> C:\Users\todor\Legacy\TimeGrid\x64\Debug\TimeGrid.exe
+  TimeGrid.vcxproj -> C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\x64\Debug\TimeGrid.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.
