@@ -12,6 +12,7 @@
 #include "event_list.h"
 
 
+
 enum class Screen
 {
     main_menu,
@@ -26,6 +27,7 @@ void main_menu()
     InitWindow(845, 600, "TimeGrid");
 
     EventNode* head = nullptr;
+    LoadEventsFromFile(head);
 
     Texture2D background = LoadTexture("Assets/background_1.png");
     if (background.id == 0) std::cout << "Failed to load background!" << std::endl;
@@ -74,8 +76,7 @@ void main_menu()
             break;
 
         case Screen::view_events:
-            view_events();
-            DrawText("Press F1 to return", 150, 200, 20, DARKGRAY);
+            view_events(head);
             if (IsKeyPressed(KEY_F1)) currentScreen = Screen::main_menu;
             break;
 
@@ -99,5 +100,7 @@ void main_menu()
 
     UnloadTexture(background);
     if (logo.id != 0) UnloadTexture(logo);
+    FreeList(head);
+
     CloseWindow();
 }
