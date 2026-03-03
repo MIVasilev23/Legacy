@@ -1,44 +1,18 @@
-#include "view_events.h"
 #include "raylib.h"
 
-//delete this later Toshe, it's just a test if the program will run
-void view_events(EventNode* head)
+void view_events() //just for testing
 {
     while (!WindowShouldClose())
     {
-        if (IsKeyPressed(KEY_ESCAPE))
-            break;
-
         BeginDrawing();
         ClearBackground(RAYWHITE);
 
-        DrawText("VIEW EVENTS (ESC to return)", 20, 20, 20, BLACK);
-
-        int y = 80;
-        EventNode* current = head;
-
-        while (current)
-        {
-            DrawText(
-                current->data.name.c_str(),
-                40,
-                y,
-                20,
-                BLACK
-            );
-
-            DrawText(
-                TextFormat("%d", current->data.year),
-                300,
-                y,
-                20,
-                DARKGRAY
-            );
-
-            y += 30;
-            current = current->next;
-        }
+        DrawText("works btw", 150, 150, 30, RED);
+        DrawText("Press F1 to return", 150, 200, 20, DARKGRAY);
 
         EndDrawing();
+
+        if (IsKeyPressed(KEY_F1))
+            break;
     }
 }

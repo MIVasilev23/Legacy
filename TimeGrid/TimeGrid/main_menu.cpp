@@ -1,7 +1,16 @@
 #include "main_menu.h"
 #include "buttons.h"
+
+#include "view_events.h"
+
+#include "create_event.h"
+#include "file_manager.h"
+
 #include "raylib.h"
 #include <iostream>
+
+#include "event_list.h"
+
 
 enum class Screen
 {
@@ -15,6 +24,8 @@ enum class Screen
 void main_menu()
 {
     InitWindow(845, 600, "TimeGrid");
+
+    EventNode* head = nullptr;
 
     Texture2D background = LoadTexture("Assets/background_1.png");
     if (background.id == 0) std::cout << "Failed to load background!" << std::endl;
@@ -63,14 +74,13 @@ void main_menu()
             break;
 
         case Screen::view_events:
-            DrawText("VIEW EVENTS WORKS!", 150, 150, 30, RED);
+            view_events();
             DrawText("Press F1 to return", 150, 200, 20, DARKGRAY);
             if (IsKeyPressed(KEY_F1)) currentScreen = Screen::main_menu;
             break;
 
         case Screen::create_event:
-            DrawText("CREATE EVENT WORKS!", 150, 150, 30, BLUE);
-            DrawText("Press F1 return", 150, 200, 20, DARKGRAY);
+            create_event(head);
             if (IsKeyPressed(KEY_F1)) currentScreen = Screen::main_menu;
             break;
 

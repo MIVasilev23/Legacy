@@ -126,12 +126,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="buttons.cpp" />
+    <ClCompile Include="create_event.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="main_menu.cpp" />
+    <ClCompile Include="file_manager.cpp" />
     <ClCompile Include="view_events.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="buttons.h" />
+    <ClInclude Include="create_event.h" />
+    <ClInclude Include="file_manager.h" />
     <ClInclude Include="main_menu.h" />
     <ClInclude Include="view_events.h" />
   </ItemGroup>

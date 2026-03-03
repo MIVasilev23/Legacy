@@ -1,4 +1,6 @@
-﻿  main_menu.cpp
+﻿  file_manager.cpp
+  view_events.cpp
+  Generating Code...
   TimeGrid.vcxproj -> C:\Users\Milen\Desktop\Project\Legacy\TimeGrid\x64\Debug\TimeGrid.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.
