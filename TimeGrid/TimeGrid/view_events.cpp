@@ -43,7 +43,8 @@ void view_events(EventNode* head)
             if (CheckCollisionPointRec(GetMousePosition(), cardRect) &&
                 IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
             {
-                edit_event(head, current); // pass head and clicked event
+                edit_event(head, current);
+                break;// pass head and clicked event
             }
 
             //main Info
