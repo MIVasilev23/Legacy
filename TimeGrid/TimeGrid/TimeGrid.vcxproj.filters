@@ -36,6 +36,9 @@
     <ClCompile Include="edit_event.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="how_to_use.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_menu.h">
@@ -54,6 +57,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="edit_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="how_to_use.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

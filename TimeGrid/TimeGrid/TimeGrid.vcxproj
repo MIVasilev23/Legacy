@@ -128,6 +128,7 @@
     <ClCompile Include="buttons.cpp" />
     <ClCompile Include="create_event.cpp" />
     <ClCompile Include="edit_event.cpp" />
+    <ClCompile Include="how_to_use.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="main_menu.cpp" />
     <ClCompile Include="file_manager.cpp" />
@@ -138,6 +139,7 @@
     <ClInclude Include="create_event.h" />
     <ClInclude Include="edit_event.h" />
     <ClInclude Include="file_manager.h" />
+    <ClInclude Include="how_to_use.h" />
     <ClInclude Include="main_menu.h" />
     <ClInclude Include="view_events.h" />
   </ItemGroup>

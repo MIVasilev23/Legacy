@@ -1,6 +1,6 @@
 #include "main_menu.h"
 #include "buttons.h"
-
+#include "how_to_use.h"
 #include "view_events.h"
 
 #include "create_event.h"
@@ -86,8 +86,8 @@ void main_menu()
             break;
 
         case Screen::how_to_use:
-            DrawText("HOW TO USE WORKS!", 150, 150, 30, GREEN);
             DrawText("Press F1 to return", 150, 200, 20, DARKGRAY);
+            how_to_use();
             if (IsKeyPressed(KEY_F1)) currentScreen = Screen::main_menu;
             break;
 
